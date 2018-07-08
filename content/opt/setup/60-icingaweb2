@@ -31,7 +31,6 @@ chown -R www-data:www-data /var/lib/php/sessions
 
 # enable modules
 icingacli module enable monitoring
-icingacli module enable doc
 
 # Create MySQL user on localhost or test given connection
 if [ "${ICINGA2_IDO_MYSQL_HOST}" == "localhost" ]; then
